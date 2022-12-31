@@ -1,4 +1,4 @@
-public class fathy {
+public class Mohamed {
 
 
     public static void main(String[] args) 
