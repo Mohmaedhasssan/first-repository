@@ -9,5 +9,10 @@ jobs :
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'print folder contents'
+      - name: 'print folder contents before' 
+        run: ls
+
+      - uses: action/checkout@v3
+
+      - name: 'print folder contents after'
         run: ls
